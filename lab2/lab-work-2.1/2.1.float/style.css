@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.box1 {
+  float: left;
+  width: 80%;
+  border: 1px solid black;
+  height: 800px;
+  text-align: center;
+}
+.box2 {
+  float: left;
+  width: 20%;
+  border: 1px solid black;
+  height: 800px;
+  text-align: center;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+
+
+.div1{
+  border: 1px solid black;
+  height: 200px;
+  
+}
+.div2{
+  border: 1px solid black;
+  height: 200px;
+  
+}
+.div3{
+  border: 1px solid black;
+  height: 200px;
+}
+.div4{
+  border: 1px solid black;
+  height: 200px;
+}

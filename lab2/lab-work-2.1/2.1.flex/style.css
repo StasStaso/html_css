@@ -1,0 +1,34 @@
+.wrapper {
+  display: flex;
+  height: 800px;
+  text-align: center;
+ }
+.first_block {
+  flex: 0 0 80%
+ }
+.row {
+  display: flex;
+  flex-direction: column;
+ }
+.div1 {
+  height: 200px;
+  border: 1px solid black;
+}
+.div2 { 
+  height: 200px;
+  border: 1px solid black;
+}
+.div3 {
+  height: 200px;
+  border: 1px solid black;
+ }
+.div4 { 
+  height: 200px;
+  border: 1px solid black;
+}
+.second_block { 
+  flex: 0 0 20%;
+  border: 1px solid black;
+}
+.div5 { }
+
